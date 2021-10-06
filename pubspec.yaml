@@ -1,0 +1,71 @@
+name: boilerplate
+description: A new Flutter application.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  auto_size_text: ^3.0.0-nullsafety.0
+  cached_network_image: ^3.1.0
+  equatable: ^2.0.3
+  file_picker: ^3.0.4
+  flutter:
+    sdk: flutter
+  #validation
+  form_field_validator: ^1.1.0
+  #getx and get storage
+  get: ^4.3.4
+  #shared preference
+  shared_preferences: ^2.0.6
+  #injection
+  get_it: ^7.2.0
+  #internect checker
+  internet_connection_checker: ^0.0.1+2
+  intl: ^0.17.0
+  #permissions
+  permission_handler: ^8.1.4+2
+  #loading progress indicator
+  modal_progress_hud_nsn: ^0.1.0-nullsafety-1
+  #svg
+  flutter_svg: ^0.22.0
+  # toast for user
+  fluttertoast: ^8.0.8
+  #  map
+  google_maps_flutter: ^2.0.8
+  geolocator: ^7.6.0
+  geocoding: ^2.0.1
+  location: ^4.3.0
+  #  responsive screen
+  flutter_screenutil: ^5.0.0+2
+  # freezed
+  freezed_annotation: ^0.14.2
+  # model creation
+  json_serializable: ^5.0.2
+
+dev_dependencies:
+  build_runner: ^2.0.4
+  flutter_launcher_icons: "^0.9.2"
+  flutter_test:
+    sdk: flutter
+
+#flutter_icons:
+#  android: true
+#  ios: true
+#TODO: put your app icon here and run this command after adding app icon >> flutter pub run flutter_launcher_icons:main
+#  image_path: 'assets/images/app_icon.png'
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+    - assets/images/auth/
+    - assets/images/home/
+#TODO: add app fonts here
+#  fonts:
+#    - family: alfa
+#      fonts:
+#        - asset: fonts/alfa.ttf
