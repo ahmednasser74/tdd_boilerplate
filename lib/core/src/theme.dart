@@ -4,7 +4,7 @@ import 'colors.dart';
 
 class CustomsThemes {
   CustomsThemes();
-
+  //TODO: put your app theme here
   static final defaultThemeData = ThemeData(
     /// Dialog Color
     colorScheme: ColorScheme.light(

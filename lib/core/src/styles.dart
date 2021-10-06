@@ -4,7 +4,7 @@ import 'colors.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class CustomStyle {
-
+//TODO: put your app styles here
   static final InputDecoration chatSearchInputDecoration = InputDecoration(
     hintText: 'Group name',
     fillColor: CustomColors.redLightColor,

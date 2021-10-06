@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class CustomColors {
+  //TODO: put your app color here
   static const Color primaryColor = Color.fromRGBO(195, 1, 1, 1),
       redLightColor = Color.fromRGBO(239, 154, 154, 1),
       greenColor = Color.fromRGBO(67, 160, 71, 1),

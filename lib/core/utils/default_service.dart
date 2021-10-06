@@ -1,4 +1,3 @@
-
 import 'package:get/get.dart';
 
 class DefaultGetConnect extends GetConnect {
@@ -31,6 +30,15 @@ class DefaultGetConnect extends GetConnect {
 
   Future<Response> postData(String path, {Map<String, dynamic>? data}) async {
     final response = await httpClient.post(
+      '$path',
+      query: data,
+      headers: headers,
+    );
+    return response;
+  }
+
+  Future<Response> putData(String path, {Map<String, dynamic>? data}) async {
+    final response = await httpClient.put(
       '$path',
       query: data,
       headers: headers,

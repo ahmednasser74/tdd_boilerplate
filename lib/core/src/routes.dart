@@ -3,6 +3,8 @@ import 'package:boilerplate/features/auth/presentation/screen/splash_screen.dart
 import 'package:get/get_navigation/src/routes/get_route.dart';
 
 class Routes {
+  //TODO: put your app routes here
+
   static const String splashScreen = '/splashScreen',
       loginScreen = '/loginScreen';
 

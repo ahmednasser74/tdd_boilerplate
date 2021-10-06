@@ -5,6 +5,7 @@ import 'package:get/get.dart';
 import 'injection_container.dart';
 
 class ControllerBinding extends Bindings {
+//TODO: put your controllers here to init in main
   @override
   void dependencies() {
     // Auth Cycle
