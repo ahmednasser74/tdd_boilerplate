@@ -16,9 +16,8 @@ class HelperMethods {
       toastLength: toastLength,
       gravity: gravity,
       fontSize: fontSize,
-      backgroundColor:backgroundColor,
-      textColor:textColor,
+      backgroundColor: backgroundColor,
+      textColor: textColor,
     );
   }
-
 }
